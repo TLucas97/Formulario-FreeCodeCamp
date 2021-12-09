@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
+</head>
+<body>
+    <div id="title">
+        <h1>Formulário de pesquisa - freeCodeCamp</h1>
+        <p id="description">Obrigado por contribuir para melhorar a nossa plataforma ♥</p>
+    </div>
+
+
+    <form>
+<div id="survey-form">
+         <label class="label-type" for="name">Nome</label><img src="/contact-book.png" alt="" class="lil-img">
+                    <div class="first-input">
+                    <input type="text" placeholder="Digite seu nome" required id="name-label">
+        </div>
+        <label class="label-type" for="email">Email</label><img src="/email.png" alt="" class="lil-img">
+        <div class="first-input">
+                    <input type="email" placeholder="Digite seu email" required>
+        </div>
+
+        <div class="first-input">
+            <label id="number-label" for="number">Idade<span>(optional)</span></label> <img src="/telephone-call.png" alt="" class="lil-img">
+                    <input type="number" placeholder="Digite sua idade (opcional)" required id="age-label">
+        </div>
+
+
+                    <h2 id="space">Qual opção melhor descreve sua situação?</h2>
+
+                <select name="dropdown" id="dropdown" required>
+                    <option disabled selected value id="special">Selecione</option>
+                    <option>Estudante</option>
+                    <option>Emprego-Fulltime</option>
+                    <option>Estudante-Fulltime</option>
+                    <option>Prefiro não dizer</option>
+                    <option>Outros</option>
+                </select>
+                    <h2>Você recomendaria a FreeCodeCamp para um amigo?</h2>
+                <div id="optionss">
+                    <div id="options1">
+                        <input type="radio" name="options" value="Definely" required>
+                        <label for="options"class="options">Definitivamente</label>
+                    </div>
+                    <div id="options2">
+                        <input type="radio" name="options" value="Maybe" required>
+                        <label for="options"class="options">Talvez</label>
+                    </div>
+                    <div id="options3">
+                        <input type="radio" name="options" value="Not sure" required>
+                        <label for="options"class="options">Não tenho certeza</label>
+                    </div>    
+                </div>  
+            
+                    <h2>Oque você gostaria de aperfeiçoar? <span>(Verifique as melhores opções)</span></h2>
+
+                    <div id="checkbox">
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects" required>
+                        <label for="options"class="options">Front-End Projects</label><br>
+                        </div>
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Back-end Projects</label><br>
+                    </div>
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Data Visualization</label><br>
+                    </div>
+                        <div class="checkbox-options"> 
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Desafios</label><br>
+                    </div>
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Comunidade Open Scource</label><br>
+                    </div>
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Gitter help rooms</label><br>
+                    </div>
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Videos</label><br>
+                    </div>
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Encontros na cidade</label><br>
+                    </div>
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Wiki</label><br>
+                    </div>
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Forum</label><br>
+                    </div>
+                        <div class="checkbox-options">
+                        <input type="checkbox" value="Front-end Projects">
+                        <label for="options"class="options">Cursos Adicionais</label><br>
+                        </div>
+
+            </div>
+                    <h2>Algum comentário ou sugestão?</h2>
+
+                    <div id="last-area">
+                        <textarea name="comments" id="comments" cols="100" rows="10"></textarea>
+                        <button id="btn">Enviar</button>
+                    </div>
+
+                </form>
+
+
+
+
+</body>
+</html>

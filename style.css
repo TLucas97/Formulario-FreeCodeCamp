@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/bg.jpg);
+}
+
+#title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2em;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+#title p{
+    font-style: italic;
+}
+
+.first-input label{
+    margin-top: 1em;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label-type{
+    margin-top: 1.5em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.lil-img{
+    width: 50px;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+form{
+    flex-direction: column;
+    background: #222244;
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px;
+    opacity: .9;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 3px 3px 5px gray;
+
+}
+
+input{
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+}
+
+.contact{
+    max-width: 5%;
+    margin-bottom: .4em;
+}
+
+#space{
+    padding-top: 2em;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#survey-form input{
+    width: 90%;
+}
+
+.first-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#survey-form h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 1.5em;
+    margin-bottom: .7em;
+    letter-spacing: .1em;
+}
+
+span{
+    font-size: 1rem;
+    opacity: .5;
+}
+
+form input{
+    width: 90%;
+    height: 35px;
+}
+
+form input[placeholder]{
+    font-size: 1rem;
+    padding-left: .7em;
+}
+
+form select{
+    width: 90%;
+    height: 35px;
+}
+
+form select{
+    font-size: 1rem;
+    color: gray;
+}
+
+#optionss{
+    display:flex;
+    flex-direction: column;
+}
+
+#options1{
+    display: flex;
+}
+#options2{
+    display: flex;
+}
+#options3{
+    display: flex;
+}
+
+#optionss input{
+    width: 25px;
+}
+
+#optionss label{
+    margin-bottom: 1em;
+    margin-left: .5em;
+    padding-top: .5em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#checkbox input{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#checkbox label{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#checkbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.checkbox-options{
+    display: flex;
+}
+
+.checkbox-options label{
+    margin-bottom: 1em;
+    margin-left: .5em;
+    padding-top: .5em;
+}
+
+#last-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#comments{
+    border-radius: .2em;
+    margin-bottom: 2em;
+    max-width: 100%;
+    width: 100%
+}
+
+#btn{
+    width: 100%;
+    display: inline;
+    background: #37AF65;
+    padding: 1em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 1450px){
+    #btn{
+        width: 80%;
+    }
+
+    #comments{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 1150px){
+    form{
+        width: 70%;
+    }
+}
+
+@media (max-width: 950px){
+    h2{
+        padding: .5em;
+    }
+}
+
+
